@@ -48,7 +48,6 @@ public class Group<T> extends Task<T> {
             }
         }
 
-        // Notify the visitor about the group end
         visitor.onGroupEnd(this, getHeaders());
     }
 }
